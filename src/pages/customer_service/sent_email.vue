@@ -381,7 +381,6 @@ export default class sent_email extends mixins<any>(dateMixin) {
 
     private getEmailList() {
         ;(this as any).dataForm.validateFields().then((values: any) => {
-            console.log('values', values)
             let params: any = CommonService.createQueryCondition(values, {
                 email_to: 'in_or_like',
                 email_from: 'in_or_like',

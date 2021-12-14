@@ -250,7 +250,6 @@ export default class MenuAccessManage extends Vue {
                 data => {
                     if (data.length) {
                         this.roleList = this.formatRoleList(data)
-                        console.log('this.roleList', this.roleList)
                     }
                 },
                 err => {
@@ -261,7 +260,6 @@ export default class MenuAccessManage extends Vue {
 
     private formatRoleList(list) {
         let ret: any = []
-        console.log('list', list)
         if (list.length) {
             for (let i in list) {
                 let item: any = {

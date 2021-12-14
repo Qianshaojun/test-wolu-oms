@@ -331,7 +331,6 @@ export default class DeptProductFactoryTransitStockReport extends Vue {
      */
     private getDataList() {
         this.dataForm.validateFields().then((values: any) => {
-            console.log('values', values)
             if (values['z_category']) {
                 delete values['z_category']
             }
@@ -502,6 +501,7 @@ export default class DeptProductFactoryTransitStockReport extends Vue {
             "replenish_split": "拆分补货需求",
             "return_purchase": "退回补货",
             "add_replenishment_contract": "新建采购合同",
+
             "purchase_return": "退回补货",
             "updateSKUPurchaseStatus": "更新产品补货状态为独立补货"
         },

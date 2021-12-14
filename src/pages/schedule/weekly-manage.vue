@@ -362,7 +362,6 @@ export default class WeeklyManage extends Vue {
         //验证日期格式为YYYY-MM-DD
         var reg = date.match(/^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$/)
         if (!reg || month > 12 || day > 31) {
-            console.log('日期或格式有误！请输入正确的日期格式（年-月-日）')
             return
         }
 
