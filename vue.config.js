@@ -10,7 +10,7 @@ const productionGzipExtensions = ['js', 'css']
 
 module.exports = {
     // 资源根路径
-    publicPath: process.env.NODE_ENV === 'production' ? '/test-wolu-oms/' : '/',
+    publicPath: './',
 
     //输出文件路径(默认dist文件夹)
     outputDir: 'oms_web',
