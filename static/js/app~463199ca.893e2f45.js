@@ -32,7 +32,7 @@ vue_router__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"].prototype.push = func
 
 /* harmony default export */ __webpack_exports__["a"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]({
   mode: 'hash',
-  base: "/test-wolu-oms/",
+  base: "",
   routes: [{
     path: '/',
     redirect: function redirect() {
