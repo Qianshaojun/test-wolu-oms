@@ -78,7 +78,6 @@ export default class UpdatePackageChangeMemo extends Vue {
     }
 
     public setFormValues() {
-        console.log(this.params)
         this.form.setFieldsValue(this.params)
     }
 
@@ -116,17 +115,17 @@ export default class UpdatePackageChangeMemo extends Vue {
 
 <i18n>
 {
-  "en-us":{
-      "columns":{
-            "meno":"Memo",
-            "package_name":"Pachage Name"
-      }
-  },
-  "zh-cn":{
-       "columns":{    
-           "memo":"备注",
-            "package_name":"货柜号"
-      }
-  }
+    "en-us": {
+        "columns": {
+            "meno": "Memo",
+            "package_name": "Pachage Name"
+        }
+    },
+    "zh-cn": {
+        "columns": {
+            "memo": "备注",
+            "package_name": "货柜号"
+        }
+    }
 }
 </i18n>

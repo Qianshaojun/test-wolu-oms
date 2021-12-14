@@ -909,7 +909,6 @@ export default class EmailGroupEdit extends Vue {
     }
 
     public setFormValues() {
-        console.log('this.info', this.info)
         //处理分配客户字段数据
         let arr: any[] = []
         let obj: any = {}
@@ -1130,7 +1129,6 @@ export default class EmailGroupEdit extends Vue {
     }
 
     private refreshData() {
-        console.log('this.ruleData', this.ruleData)
         for (let i in this.ruleData) {
             if (this.ruleData[i].status == 20) {
                 //cs_ratio

@@ -27,12 +27,12 @@
             </a-row>
         </a-form>
         <div class="flex-row justify-content-end margin-top">
-            <a-button class="margin-right" @click="cancel">{{
-                $t('action.cancel')
-            }}</a-button>
-            <a-button type="primary" @click="onSubmit">{{
-                $t('action.submit')
-            }}</a-button>
+            <a-button class="margin-right" @click="cancel"
+                >{{ $t('action.cancel') }}
+            </a-button>
+            <a-button type="primary" @click="onSubmit"
+                >{{ $t('action.submit') }}
+            </a-button>
         </div>
     </section>
 </template>
@@ -71,7 +71,6 @@ export default class AddCnMainCategory extends Vue {
     }
 
     public created() {
-        console.log(this.cn_main_category)
         this.form = this.$form.createForm(this)
     }
 
@@ -86,44 +85,42 @@ export default class AddCnMainCategory extends Vue {
 </script>
 <i18n>
 {
-  "en-us": {
-    "desc": "",
-    "columns":{
-       "cn_category":"Category"
+    "en-us": {
+        "desc": "",
+        "columns": {
+            "cn_category": "Category"
+        },
+        "action": {
+            "edit": "Edit",
+            "cancel": "Cancel",
+            "more": "More"
+        },
+        "rules": {
+        },
+        "delete": "Are you sure delete?",
+        "fuzzy_search": "Fuzzy Search",
+        "save_success": "Save Success",
+        "delete_success": "Delete Success",
+        "please_choose": "Please Choose"
     },
-    "action":{
-        "edit":"Edit",
-        "cancel":"Cancel",
-        "more":"More"
-    },
-    "rules":{
-
-    },
-    "delete":"Are you sure delete?",
-    "fuzzy_search":"Fuzzy Search",
-    "save_success": "Save Success",
-    "delete_success":"Delete Success",
-    "please_choose":"Please Choose"
-  },
-  "zh-cn": {
-    "desc": "",
-    "columns":{
-       "cn_category":"一级分类"
-    },
-    "action":{
-      "edit":"编辑",
-      "cancel":"取消",
-      "more":"更多操作"
-    },
-    "rules":{
-      "date_range_error":"开始日期不能大于结束日期"
-    },
-    "delete":"是否确认删除?",
-    "fuzzy_search":"模糊搜索",
-    "save_success": "操作成功",
-    "delete_success":"删除成功",
-    "please_choose":"请选择"
-
-  }
+    "zh-cn": {
+        "desc": "",
+        "columns": {
+            "cn_category": "一级分类"
+        },
+        "action": {
+            "edit": "编辑",
+            "cancel": "取消",
+            "more": "更多操作"
+        },
+        "rules": {
+            "date_range_error": "开始日期不能大于结束日期"
+        },
+        "delete": "是否确认删除?",
+        "fuzzy_search": "模糊搜索",
+        "save_success": "操作成功",
+        "delete_success": "删除成功",
+        "please_choose": "请选择"
+    }
 }
 </i18n>

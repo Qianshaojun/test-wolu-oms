@@ -214,7 +214,6 @@ export default class emailAdvanced extends Vue {
     }
 
     private setFormValue(value) {
-        console.log('value', value)
         this.auto_delete = value.auto_delete
         this.receive_notice = value.notification
         this.form.setFieldsValue({

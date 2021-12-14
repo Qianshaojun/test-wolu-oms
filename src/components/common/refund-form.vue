@@ -544,7 +544,6 @@ export default class RefundForm extends Vue {
                         s.add(order_lines[i]['default_code'])
                     }
                     this.data = detail_data
-                    console.log('data', this.data)
                     this.skuSet = s
                 },
                 err => {

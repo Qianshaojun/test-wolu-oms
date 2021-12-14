@@ -282,7 +282,6 @@ export default class DeliveryMore extends Vue {
                     return
                 }
             }
-            console.log('value', value)
             this.deliverMore(value)
         }
     }

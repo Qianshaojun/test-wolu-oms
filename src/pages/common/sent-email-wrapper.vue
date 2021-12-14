@@ -349,7 +349,6 @@ export default class sentEmailDetail extends Vue {
             )
             .subscribe(
                 data => {
-                    console.log('data', data)
                     this.customList = data
                 },
                 err => {
@@ -487,7 +486,6 @@ export default class sentEmailDetail extends Vue {
     private changeTab(key) {
         switch (key) {
             case 'advanced':
-                console.log(this.emailAdvanced)
                 this.$nextTick(() => {
                     if (this.emailAdvanced) {
                         this.emailAdvanced.setFormValue(this.detailInfo)
