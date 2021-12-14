@@ -1,0 +1,28 @@
+.DS_Store
+node_modules
+dist
+/docs/.vuepress/dist
+
+oms_web
+/docs/.vuepress/oms_web
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock File
+yarn.lock
+package-lock.json
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

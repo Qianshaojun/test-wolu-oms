@@ -1,0 +1,409 @@
+{
+    "menu": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "dashboard-mobile": "Dashboard",
+        "workspace": "Workspace",
+        "orders": "Order",
+        "order-manage": "Order Manage",
+        "presale-orders-manage": "presale-orders-manage",
+        "presale-manage": "presale-manage",
+        "amazon-listing-stock": "Amazon Listing Stock",
+        "amazon": "Platform",
+        "report": "Report",
+        "reports": "Reports",
+        "product": "Product",
+        "account-invoice": "Account Invoice",
+        "user-order": "OrderDetail",
+        "order-wrapper": "OrderDetail",
+        "account": "Account Invoice",
+        "account-page1": "Account Page1",
+        "account-page2": "Account Page2",
+        "demos": "Demos",
+        "calender": "Calender",
+        "chart": "Charts",
+        "order": "Order",
+        "map": "Map",
+        "page-header": "PageHeader",
+        "data-form": "DataForm",
+        "data-table": "DataTable",
+        "editor": "Editor",
+        "http": "Http Request",
+        "settings": "Setting",
+        "user-setting": "User Setting",
+        "change-log": "Change Log",
+        "demo-mobile": "Demo",
+        "customer": " Customer",
+        "customer-manage": "Customer Manage",
+        "chat-box": "Chat Box",
+        "basic_manage": "Basic Manage",
+        "BasicManage": "Basic Manage",
+        "PreSale Management": "PreSale Management",
+        "instance-manage": "Instance",
+        "instance-edit": "Instance Edit",
+        "seller-edit": "Seller Edit",
+        "seller-manage": "Seller",
+        "seller_instance": "Seller-Instance",
+        "query-condition-manage": "QueryCondition Manage",
+        "illegal-words": "illegal-words",
+        "PurchasePredict": "Purchase",
+        "purchase": "Purchase",
+        "product-pre-sale": "Product Presale Settings",
+        "product-purchase-predict": "Product Purchase Predict",
+        "product-sale-trend": "Product Sales Trend",
+        "product-sku-sale": "SKU Daily Sales",
+        "picking": "Picking",
+        "picking-manage": "Picking Manage",
+        "picking-detail": "PickDetail",
+        "picking-wrapper": "PickDetail",
+        "modify-address": "Modify Address",
+        "shipment-type": "Shipment Type",
+        "user-manage": "User Manage",
+        "role-manage": "Role Manage",
+        "module-manage": "Module Manage",
+        "menu-manage": "Menu Manage",
+        "cs_email_return": "Email Return",
+        "customer_service": "Customer Service",
+        "problem-picture": "Problem Picture",
+        "schedule": "Schedule",
+        "schedule-management": "Schedule Management",
+        "product-detail": "Product Detail",
+        "vendor-detail-multi": "Vendor Detail",
+        "shipment": "Shipment",
+        "purchase-contract-edit": "Purchase Contract Edit",
+        "purchase-package-edit": "Purchase Package Edit",
+        "operation": "Operation",
+        "wms_management": "wms_management"
+    },
+    "dict": {
+        "all": "ALL",
+        "yes": "Yes",
+        "no": "No",
+        "customer-status": {
+            "pending": "Pending",
+            "reject": "Reject",
+            "accept": "Accept",
+            "suspend": "Suspend"
+        },
+        "seller-instance-status": {
+            "draft": "Draft",
+            "active": "Active",
+            "cancel": "Cancel",
+            "suspend": "Suspend",
+            "inactive": "iIactive"
+        },
+        "seller-platform": {
+            "b2c": "B2C",
+            "cd": "Cdiscount",
+            "amz": "AMZ",
+            "eBay": "eBay",
+            "wish": "Wish",
+            "aliexpress": "Aliexpress",
+            "wayfair": "Wayfair"
+        },
+        "warehouse_id": {
+            "de": "DE Warehouse",
+            "uk": "UK Warehouse",
+            "us": "US Warehouse"
+        },
+        "presale_type": {
+            "type_category": "Category",
+            "type_sku": "SKU"
+        },
+        "is_presale": {
+            "type_true": "√",
+            "type_false": ""
+        },
+        "purchase_status": {
+            "not": "Not Purchase",
+            "need": "Need Purchase",
+            "purchased": "Purchased",
+            "cancel": "Cancelled"
+        },
+        "predict_status": {
+            "new": "New",
+            "active": "Active",
+            "confirmed": "Confirmed",
+            "completed": "Completed",
+            "returned": "Returned",
+            "refused": "Refused"
+        },
+        "search_type": {
+            "normal": "Filter",
+            "favourite": "Favourite"
+        },
+        "state": {
+            "draft": "Quotation",
+            "sale": "Sale",
+            "done": "Done",
+            "cancel": "Cancel"
+        },
+        "package_size": {
+            "small": "Small",
+            "medium": "Medium",
+            "large": "Large"
+        },
+        "warehouse_list": {
+            "de": "DE Warehouse",
+            "uk": "UK GoodCang",
+            "uk_own": "UK Own Warehouse",
+            "fr": "FR Warehouse",
+            "zqlc": "ZQLC Warehouse"
+        },
+        "order_type": {
+            "a": "Normal",
+            "r": "Resend",
+            "g": "Marketing",
+            "service": "Service"
+        },
+        "shipping_policy": {
+            "direct": "Deliver each product when available",
+            "one": "Deliver all products at once"
+        },
+        "invoice_policy": {
+            "order": "Ordered quantities",
+            "delivery": "Delivered quantities"
+        },
+        "illegal_words": {
+            "active": "Active",
+            "cancel": "Cancel"
+        },
+        "picking_state": {
+            "draft": "Draft",
+            "waiting": "Waiting",
+            "confirmed": "Waiting Availability",
+            "partially_available": "Partially Available",
+            "assigned": "Available",
+            "done": "Done",
+            "cancel": "Cancel"
+        },
+        "picking_validate_status": {
+            "no_validate": "No Validate",
+            "error": "Validate Error",
+            "ok": "Validate Ok"
+        },
+        "invoice_send_status": {
+            "waiting": "Waiting",
+            "done": "Done",
+            "query": "Query",
+            "create_invoice": "Create Invoice",
+            "partner_email": "Partner Email",
+            "no_order": "No Order",
+            "no_template": "No Template",
+            "other": "Other"
+        },
+        "email_group_status": {
+            "active": "Active",
+            "stop": "Stop"
+        },
+        "product_type": {
+            "consu": "Consumable",
+            "product": "Stockable Product",
+            "service": "Service"
+        },
+        "ocean_ship_status": {
+            "ship": "Ship",
+            "process": "Process",
+            "waiting": "Waiting",
+            "wait": "Wait",
+            "land": "Land"
+        },
+        "ship_status": {
+            "draft": "Draft",
+            "confirm": "Confirm",
+            "approved": "Approved",
+            "cancel": "Cancel",
+            "ship": "Ship",
+            "process": "Process Clearance",
+            "waiting": "Waiting Arrange In",
+            "wait": "Waiting In",
+            "land": "Land"
+        },
+        "reissue_type": {
+            "complete": "Complete",
+            "part": "Part"
+        },
+        "replenishment_type": {
+            "operational": "Operational",
+            "development": "Development",
+            "abnormal_purchase": "Abnormal Purchase"
+        },
+        "replenishment_state": {
+            "draft": "RFQ",
+            "to_approve": "To Approve",
+            "approved": "Approved",
+            "order": "Order Plan",
+            "order2": "Order End",
+            "approved_order": "Approved/Order Plan",
+            "approved_order2": "Approved/Order End",
+            "package": "Package",
+            "ship": "Ship",
+            "process": "Process Clearance",
+            "waiting": "Waiting Arrange In",
+            "wait": "Waiting In",
+            "land": "Land",
+            "done": "Done",
+            "cancel": "Cancelled",
+            "refuse": "Refuse",
+            "confirmed": "Confirm",
+            "done2": "Done2"
+        },
+        "package_order_state": {
+            "ship": "Ship",
+            "process": "Process Clearance",
+            "waiting": "Waiting Arrange In",
+            "wait": "Waiting In",
+            "land": "Land",
+            "confirm": "Confirm",
+            "draft": "Draft",
+            "cancel": "Cancel",
+            "approved": "Approved"
+        },
+        "purchase_contract_state": {
+            "done": "Done",
+            "confirm": "Confirm",
+            "draft": "Draft",
+            "cancel": "Cancel",
+            "approved": "Approved",
+            "refuse": "Refuse"
+        },
+        "final_ship_site": {
+            "de": "DE",
+            "fr": "FR",
+            "es": "ES",
+            "it": "IT",
+            "nl": "NL",
+            "se": "SE",
+            "pl": "PL",
+            "at": "AT",
+            "be": "BE",
+            "lu": "LU"
+        },
+        "sku_replenish_state": {
+            "no": "Cannot replenishment",
+            "merge": "Merge replenishment",
+            "single": "Single replenishment"
+        },
+        "sale_state": {
+            "normal": "Normal",
+            "weed_out": "Weed out",
+            "infringement": "Infringement",
+            "to_be_seen": "To be seen"
+        },
+        "logistics_provider_state": {
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "logistics_provider_aging": {
+            "air": "Air",
+            "truck": "Truck",
+            "rail": "Rail",
+            "sea": "Sea",
+            "delivery": "Delivery"
+        },
+        "unsalable_approve_state": {
+            "approved": "Approved",
+            "wait_approve": "Wait Approve"
+        },
+        "pre_prod_price_approve_state": {
+            "pre_approve": "Pre Approve",
+            "passed": "Passed",
+            "not_passed": "Not Passed",
+            "time_out": "Time Out"
+        },
+        "prod_status": {
+            "sale": "Sale",
+            "stop": "Stop",
+            "waiting": "Waiting",
+            "sz_prod": "SZ Product",
+            "uk_sale": "UK Sale",
+            "tort_stop": "Tort Stop"
+        },
+        "shipping_plan_state": {
+            "draft": "Draft",
+            "confirm": "Confirm",
+            "assigned": "Assigned"
+        },
+        "price_check_prod_status": {
+            "sale": "Sale",
+            "stop": "Stop",
+            "waiting": "Waiting",
+            "tort_stop": "Tort Stop"
+        },
+        "check_prod_status": {
+            "sale": "Sale",
+            "stop": "Stop",
+            "waiting": "Waiting",
+            "tort_stop": "Tort Stop",
+            "no_stop": "No Stop",
+            "not_onshelf": "Not Onshelf"
+        },
+        "sent_email_state": {
+            "outgoing": "待发送",
+            "sent": "已发送",
+            "received": "已接收",
+            "exception": "异常",
+            "cancel": "取消"
+        },
+        "purchase_price_change_report_status": {
+            "pre_handled": "Pre Handled",
+            "handled": "Handled",
+            "price_adjusted": "Price Adjusted",
+            "no_handled": "No Handled"
+        },
+        "de_po_state": {
+            "draft": "Draft",
+            "confirmed": "Confirmed",
+            "cancel": "Cancel"
+        }
+    },
+    "columns": {
+        "instance_code": "Instance Code",
+        "instance_name": "Instance Name",
+        "instance_full_name": "Full Name",
+        "who_responsible": "Responsible User",
+        "write_uid": "Write User",
+        "write_date": "Write Date",
+        "seller_code": "Seller Code",
+        "seller_name": "Seller Name",
+        "seller_full_name": "Full Name",
+        "create_date": "Create Date",
+        "platform": "Platform",
+        "status": "Status",
+        "seller_info": "Seller Info",
+        "instance_info": "Instance Info",
+        "instances_list": "Instances List",
+        "detail": "Detail",
+        "create_time": "Create Time",
+        "write_time": "Write Time",
+        "operator": "Operator",
+        "department": "Department",
+        "z_category": "Z Category",
+        "z_sub_category": "Z Sub Category",
+        "actions": "Actions",
+        "edit": "Edit",
+        "export_excel": "Export Excel",
+        "operate_log": "Log",
+        "log": "Log",
+        "type": "Type",
+        "operate_user": "Operate User",
+        "date": "Date"
+    },
+    "action": {
+        "create": "Create",
+        "action": "Action",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "discard": "Discard",
+        "downLoadTemplate": "Download Template"
+    },
+    "tips": {
+        "save_success": "Save Success",
+        "update_success": "Update Success",
+        "delete_success": "Delete Success"
+    },
+    "split_query_condition": "multi query use comma",
+    "fuzzy_search": "Fuzzy Search",
+    "plzInput": "Please Input",
+    "plzSelect": "Please Select"
+}

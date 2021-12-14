@@ -1,0 +1,251 @@
+[
+    {
+        "id": 1,
+        "name": "dashboard",
+        "children": [
+            {
+                "id": 2,
+                "icon": "code",
+                "name": "workspace"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "BasicManage",
+        "children": [
+            {
+                "id": 210,
+                "icon": "mobile",
+                "name": "seller-manage"
+            },
+            {
+                "id": 220,
+                "icon": "mobile",
+                "name": "seller-edit"
+            },
+            {
+                "id": 230,
+                "icon": "mobile",
+                "name": "instance-manage"
+            },
+            {
+                "id": 240,
+                "icon": "mobile",
+                "name": "instance-edit"
+            },
+            {
+                "id": 250,
+                "icon": "mobile",
+                "name": "query-condition-manage"
+            },
+            {
+                "id": 260,
+                "icon": "mobile",
+                "name": "illegal-words"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "PurchasePredict",
+        "children": [
+            {
+                "id": 310,
+                "icon": "mobile",
+                "name": "product-sale-trend"
+            },
+            {
+                "id": 320,
+                "icon": "mobile",
+                "name": "product-pre-sale"
+            },
+            {
+                "id": 330,
+                "icon": "info-circle",
+                "name": "product-sku-sale"
+            },
+            {
+                "id": 340,
+                "icon": "info-circle",
+                "name": "product-purchase-predict"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "orders",
+        "children": [
+            {
+                "id": 14,
+                "icon": "gold",
+                "name": "order-manage"
+            },
+            {
+                "id": 131,
+                "icon": "gold",
+                "name": "modify-custom-problem"
+            },
+            {            
+                "id": 141,
+                "icon": "gold",
+                "name": "user-order"
+            },
+            {
+                "id": 142,
+                "icon": "gold",
+                "name": "order-wrapper"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "picking",
+        "children": [
+            {
+                "id": 16,
+                "icon": "hdd",
+                "name": "picking-manage"
+            },
+            {
+                "id": 17,
+                "icon": "hdd",
+                "name": "modify-address"
+            },
+            {
+                "id": 18,
+                "icon": "hdd",
+                "name": "shipment-type"
+            },
+            {
+                "id": 19,
+                "icon": "hdd",
+                "name": "picking-detail"
+            },
+            {
+                "id": 151,
+                "icon": "hdd",
+                "name": "picking-wrapper"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "settings",
+        "children": [
+            {
+                "id": 11,
+                "icon": "team",
+                "name": "user-manage"
+            },
+            {
+                "id": 65,
+                "icon": "bars",
+                "name": "role-manage"
+            },
+            {
+                "id": 66,
+                "icon": "bars",
+                "name": "module-manage"
+            },
+            {
+                "id": 67,
+                "icon": "menu",
+                "name": "menu-manage"
+            },
+            {
+                "id": 151,
+                "icon": "mail",
+                "name": "chat-box"
+            }            
+        ]
+    },
+    {
+        "id": 50,
+        "name": "PreSale Management",
+        "children": [
+            {
+                "id": 500,
+                "icon": "mobile",
+                "name": "presale-manage"
+            },
+            {
+                "id": 510,
+                "icon": "mobile",
+                "name": "presale-orders-manage"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "amazon",
+        "children": [
+            {
+                "id": 10,
+                "icon": "mobile",
+                "name": "amazon-listing-stock"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "account",
+        "children": [
+            {
+                "id": 1,
+                "icon": "mobile",
+                "name": "account-invoice"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "aliexpress",
+        "children": [
+            {
+                "id": 1,
+                "icon": "mobile",
+                "name": "aliexpress-manage"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "report",
+        "children": [
+            {
+                "id": 1,
+                "icon": "mobile",
+                "name": "profit-report"
+            },
+            {
+                "id": 2,
+                "icon": "mobile",
+                "name": "profit-detail"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "product",
+        "children": [
+            {
+                "id": 1,
+                "icon": "mobile",
+                "name": "product-manage"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "customer_service",
+        "children": [
+            {
+                "id": 800,
+                "icon": "mobile",
+                "name": "problem-picture"
+            }
+        ]
+    }
+
+]
