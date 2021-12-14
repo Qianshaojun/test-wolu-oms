@@ -1,18 +1,20 @@
-name: github pages
-  on:
-    push:
-      branches:
-        - main # default branch
-  jobs:
-    deploy:
-      runs-on: ubuntu-18.04
-      steps:
-        - uses: actions/checkout@v2
-        - run: npm install
-        - run: npm run docs:build
-        - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            github_token: ${{ secrets.ACCESS_TOKEN }}
-            publish_dir: ./docs-dist
+name: GitHub Actions Build and Deploy Demo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.7
+          env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: npm install && npm run build
 
